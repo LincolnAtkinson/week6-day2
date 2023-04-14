@@ -1,0 +1,28 @@
+html, body, head, div, h1 {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    background-color: rgb(213, 213, 213);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+#grids {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    display: block;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(28, 24, 24);
+}
+.lightbox {
+    background-color: rgb(122, 122, 122);
+}
